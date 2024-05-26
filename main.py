@@ -62,4 +62,4 @@ def create_unstructured_data():
 if __name__ == '__main__':
     # Run the Flask application
     # Set port to 8000 and enable debug mode for testing and rerun the code on file change
-    app.run(port=8000, debug=True)
+    app.run(port=os.getenv("PORT"), debug=True)
