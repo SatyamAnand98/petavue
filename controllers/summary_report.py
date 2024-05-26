@@ -55,13 +55,9 @@ def prompt_processing(prompt):
     response = openAI_API_Prompt(prompt=prompt, role_prompt=role_prompt ,gpt_model="gpt-4")
 
     try:
-        # Extract the code block from the response
         code_string = response.split('```')[1]
 
-        # Remove 'python' from the beginning of the code block if present
         code_string = code_string.lstrip('python').strip()
-
-        print("Generated code:\n", code_string)
 
         # Extract import statements
         imports = re.findall(r'^\s*(import .+|from .+ import .+)', code_string, re.MULTILINE)
@@ -71,7 +67,6 @@ def prompt_processing(prompt):
         global_scope = globals()
 
         for imp in imports:
-            print(f"Executing import: {imp}")
             exec(imp, global_scope, local_scope)
 
         # Remove import statements from code_string
@@ -95,7 +90,6 @@ def prompt_processing(prompt):
 
         # Call the generated function and get the result
         result = generated_function(file_path)
-        print(result)
         return result
     except Exception as e:
         print(f"Error in generated code: {e}")
