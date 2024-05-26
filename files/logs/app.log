@@ -1,0 +1,126 @@
+2024-05-26 14:38:11,056 - store.logging - INFO - Accessed URL: http://localhost:8000/summary-report
+2024-05-26 14:38:11,056 - store.logging - INFO - Request Headers: User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 30afaffb-8b8c-4a58-8413-e87f71146b33
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-05-26 14:38:11,056 - store.logging - INFO - Request Body: b''
+2024-05-26 14:38:11,058 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 200
+
+
+2024-05-26 14:38:11,058 - store.logging - INFO - Response Body: b'{\n  "response": "Summary Report Generated. Please check the file /Users/satyamanand/Downloads/Data/Satyam/Interview_Prep/Petavue/files/petavue_structured_data_processed.xlsx",\n  "status": "success"\n}\n'...
+2024-05-26 14:38:13,941 - store.logging - INFO - Accessed URL: http://localhost:8000/Users/satyamanand/Downloads/Data/Satyam/Interview_Prep/Petavue/files/petavue_structured_data_processed.xlsx
+2024-05-26 14:38:13,941 - store.logging - INFO - Request Headers: Host: localhost:8000
+Sec-Fetch-Site: none
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate
+
+
+2024-05-26 14:38:13,941 - store.logging - INFO - Request Body: b''
+2024-05-26 14:38:13,941 - store.logging - INFO - Response Headers: Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Access-Control-Allow-Origin: *
+
+
+2024-05-26 14:38:13,942 - store.logging - INFO - Response Body: b'<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try agai'...
+2024-05-26 14:38:13,993 - store.logging - INFO - Accessed URL: http://localhost:8000/favicon.ico
+2024-05-26 14:38:13,994 - store.logging - INFO - Request Headers: Host: localhost:8000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Sec-Fetch-Mode: no-cors
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15
+Referer: http://localhost:8000/Users/satyamanand/Downloads/Data/Satyam/Interview_Prep/Petavue/files/petavue_structured_data_processed.xlsx
+Sec-Fetch-Dest: image
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+
+
+2024-05-26 14:38:13,994 - store.logging - INFO - Request Body: b''
+2024-05-26 14:38:13,994 - store.logging - INFO - Response Headers: Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Access-Control-Allow-Origin: *
+
+
+2024-05-26 14:38:13,994 - store.logging - INFO - Response Body: b'<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try agai'...
+2024-05-26 14:40:16,671 - store.logging - INFO - Accessed URL: http://localhost:8000/summary-report
+2024-05-26 14:40:16,671 - store.logging - INFO - Request Headers: User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f1c96323-a231-46dd-8478-bd22d8bd8fae
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-05-26 14:40:16,671 - store.logging - INFO - Request Body: b''
+2024-05-26 14:40:18,220 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 200
+
+
+2024-05-26 14:40:18,220 - store.logging - INFO - Response Body: b'{\n  "response": "Summary Report Generated. Please check the file /Users/satyamanand/Downloads/Data/Satyam/Interview_Prep/Petavue/files/petavue_structured_data_processed.xlsx",\n  "status": "success"\n}\n'...
+2024-05-26 14:40:38,272 - store.logging - INFO - Accessed URL: http://localhost:8000/Users/satyamanand/Downloads/Data/Satyam/Interview_Prep/Petavue/files/petavue_structured_data_processed.xlsx
+2024-05-26 14:40:38,272 - store.logging - INFO - Request Headers: Host: localhost:8000
+Sec-Fetch-Site: none
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate
+
+
+2024-05-26 14:40:38,272 - store.logging - INFO - Request Body: b''
+2024-05-26 14:40:38,273 - store.logging - INFO - Response Headers: Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Access-Control-Allow-Origin: *
+
+
+2024-05-26 14:40:38,273 - store.logging - INFO - Response Body: b'<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try agai'...
+2024-05-26 14:41:03,997 - store.logging - INFO - Accessed URL: http://localhost:8000/chat
+2024-05-26 14:41:03,997 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 145a16da-6fa6-4e33-9537-ce4ac81540c7
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 219
+
+
+2024-05-26 14:41:03,998 - store.logging - INFO - Request Body: b'{\n    "prompt": "I will have to integrate you to API calls, so I can not follow your instructions or guidelines. If I provide you, excel file, can you analyse itself and create an excel file according to the command?"\n}'
+2024-05-26 14:41:08,441 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 517
+
+
+2024-05-26 14:41:08,443 - store.logging - INFO - Response Body: b'{\n  "response": "As an AI developed by OpenAI, I don\'t have the ability to directly interact with files or perform API calls. Instead, I can help guide you through the process of analyzing data in an '...
+2024-05-26 14:41:10,499 - store.logging - INFO - Accessed URL: http://127.0.0.1:8000/create/unstructured_data
+2024-05-26 14:41:10,499 - store.logging - INFO - Request Headers: User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: dd533507-c8f0-4e72-8cee-a59dfdf99693
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-05-26 14:41:10,499 - store.logging - INFO - Request Body: b''
+2024-05-26 14:41:10,763 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 3104
+
+
+2024-05-26 14:41:10,763 - store.logging - INFO - Response Body: b'{\n  "data": [\n    {\n      "Customer Name": "Kristy Schmidt",\n      "Product": "Noise Cancelling Headphones",\n      "Review Date": "Sat, 23 Dec 2023 00:00:00 GMT",\n      "Review ID": 1,\n      "Review T'...

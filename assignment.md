@@ -19,9 +19,10 @@ Develop an AI engine capable of reading, analyzing, and updating data in an Exce
 
 ### Data Reading and Manipulation
 
--   Read data from the Excel or Google Sheet, which contains at least 10,000 rows and 30+ columns.
--   Perform basic mathematical operations (addition, subtraction, multiplication, and division) on numerical columns. Create new columns to store the results.
--   Calculate aggregations (sum, average, min, max, etc.) on numerical columns and produce a summary report.
+-   ✓ Read data from the Excel or Google Sheet, which contains at least 10,000 rows and 30+ columns.
+-   ✓ Perform basic mathematical operations (addition, subtraction, multiplication, and division) on numerical columns. Create new columns to store the results.
+-   ✓ Calculate aggregations (sum, average, min, max, etc.) on numerical columns and produce a summary report.
+
 -   Perform different types of joins (inner, left, right, etc.) with another dataset. Assume another dataset will be provided or generated.
 -   Create a pivot table from the existing data and also perform the reverse operation to unpivot the table back to a normal dataset.
 -   Perform date operations such as extracting the month, day, and year from date columns, and calculating the difference between two dates.
