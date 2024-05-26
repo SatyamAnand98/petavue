@@ -1,22 +1,9 @@
-import json
-import os
 import random
 
 import numpy as np
 import pandas as pd
 
 from faker import Faker
-from openai import OpenAI
-from dotenv import load_dotenv
-
-load_dotenv()
-
-# Check if the API key is fetched correctly
-if not os.getenv("OPENAI_API_KEY"):
-    raise ValueError("OpenAI API key not found. Please set OPENAI_API_KEY in the .env file.")
-
-# Initialize OpenAI client
-client = OpenAI()
 
 
 # Initialize Faker
@@ -69,23 +56,3 @@ def generate_unstructured_data(num_rows):
     return {
         "data": json_data + [f'... {num_rows - 10} more data']
     }
-
-def generate_result_from_prompt(prompt: str):
-    response = client.chat.completions.create(
-        messages=[
-            {
-                "role": "system",
-                "content": "You are AI engine capable of reading, analyzing, and updating data in an Excel. You should be able to handle both structured and unstructured data"
-            },
-            {
-                "role": "user",
-                "content": prompt,
-            }
-        ],
-        max_tokens= 100,
-        model="gpt-3.5-turbo",
-    )
-
-    response_msg = response.choices[0].message.content
-
-    return response_msg
