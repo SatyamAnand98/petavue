@@ -7,16 +7,16 @@ import pandas as pd
 
 from faker import Faker
 from openai import OpenAI
+from dotenv import load_dotenv
 
-# Fetch the OpenAI API key from environment variables
-openai_api_key = os.getenv("OPENAI_API_KEY")
+load_dotenv()
 
 # Check if the API key is fetched correctly
-if not openai_api_key:
+if not os.getenv("OPENAI_API_KEY"):
     raise ValueError("OpenAI API key not found. Please set OPENAI_API_KEY in the .env file.")
 
 # Initialize OpenAI client
-client = OpenAI(api_key=openai_api_key)
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 
 # Initialize Faker
