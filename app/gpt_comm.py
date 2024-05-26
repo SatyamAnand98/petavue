@@ -1,6 +1,5 @@
 from dotenv import load_dotenv
 from openai import OpenAI
-
 from store.logging import configure_logger
 
 load_dotenv()
@@ -8,7 +7,7 @@ load_dotenv()
 client = OpenAI()
 logger = configure_logger()
 
-def generate_result_from_prompt(prompt: str, role_prompt: str = None, gpt_model: str = "gpt-3.5-turbo"):
+def openAI_API_Prompt(prompt: str, role_prompt: str = None, gpt_model: str = "gpt-3.5-turbo"):
     try:
         msg = []
         if role_prompt:

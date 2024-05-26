@@ -124,3 +124,401 @@ Content-Length: 3104
 
 
 2024-05-26 14:41:10,763 - store.logging - INFO - Response Body: b'{\n  "data": [\n    {\n      "Customer Name": "Kristy Schmidt",\n      "Product": "Noise Cancelling Headphones",\n      "Review Date": "Sat, 23 Dec 2023 00:00:00 GMT",\n      "Review ID": 1,\n      "Review T'...
+2024-05-26 20:43:05,807 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 20:43:05,809 - store.logging - INFO - Request Headers: User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 601408ba-5589-4632-b454-c5fdc608227a
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+
+2024-05-26 20:43:05,809 - store.logging - INFO - Request Body: b''
+2024-05-26 20:43:05,810 - store.logging - ERROR - 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-05-26 20:43:05,811 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 164
+
+
+2024-05-26 20:43:05,811 - store.logging - INFO - Response Body: b'{\n  "response": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not \'application/json\'.",\n  "status": "error"\n}\n'...
+2024-05-26 20:43:54,456 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 20:43:54,457 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 9051b106-8abd-4d27-b8d5-600cf6104f58
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 79
+
+
+2024-05-26 20:43:54,457 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience is less than 1 year"\n}'
+2024-05-26 20:43:54,457 - store.logging - ERROR - prompt_processing() takes 0 positional arguments but 1 was given
+2024-05-26 20:43:54,458 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 106
+
+
+2024-05-26 20:43:54,458 - store.logging - INFO - Response Body: b'{\n  "response": "prompt_processing() takes 0 positional arguments but 1 was given",\n  "status": "error"\n}\n'...
+2024-05-26 20:44:04,021 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 20:44:04,021 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 26c918b8-d01b-480a-80f5-7dfc1100c9e8
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 79
+
+
+2024-05-26 20:44:04,021 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience is less than 1 year"\n}'
+2024-05-26 20:44:46,161 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 20:44:46,162 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d39d33f4-740d-45d8-80f4-eabefd92a5a5
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 79
+
+
+2024-05-26 20:44:46,162 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience is less than 1 year"\n}'
+2024-05-26 20:44:46,361 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 584
+
+
+2024-05-26 20:44:46,361 - store.logging - INFO - Response Body: b'{\n  "response": [\n    "ID",\n    "Name",\n    "Age",\n    "Gender",\n    "Department",\n    "Salary",\n    "Start Date",\n    "Performance Score",\n    "Column_1",\n    "Column_2",\n    "Column_3",\n    "Column_'...
+2024-05-26 20:45:41,012 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 20:45:41,015 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 64040de2-1125-409f-8565-7bc2f1660a0c
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 20:45:41,016 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 20:45:41,233 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 11909
+
+
+2024-05-26 20:45:41,233 - store.logging - INFO - Response Body: b'{\n  "response": [\n    {\n      "Age": 58,\n      "Column_1": 15335.67100844028,\n      "Column_10": -6807.931058842708,\n      "Column_11": 2443.503690620055,\n      "Column_12": -11442.59123350938,\n      '...
+2024-05-26 20:46:11,122 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 20:46:11,122 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 1a14c4a6-79f0-4802-a20a-d7ee6ab1ed0d
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 20:46:11,123 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 20:46:36,369 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 20:46:36,369 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 410067bc-f9d1-4b24-b297-4d0eac8c2033
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 20:46:36,370 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 20:46:36,583 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 13255
+
+
+2024-05-26 20:46:36,584 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "data": [\n      {\n        "Age": 58,\n        "Column_1": 15335.67100844028,\n        "Column_10": -6807.931058842708,\n        "Column_11": 2443.503690620055,\n        "Column_12": '...
+2024-05-26 20:55:31,607 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 20:55:31,608 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 20894c2b-0d16-4d71-99e1-13895be13653
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 20:55:31,609 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 20:55:31,831 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 10125
+
+
+2024-05-26 20:55:31,831 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "data": {\n      "columns": [\n        "ID",\n        "Name",\n        "Age",\n        "Gender",\n        "Department",\n        "Salary",\n        "Start Date",\n        "Performance Sco'...
+2024-05-26 20:55:58,543 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 20:55:58,543 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: c40fa2a1-d17a-4161-8d59-76c4ec4b2a25
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 20:55:58,544 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 20:55:58,762 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 10216
+
+
+2024-05-26 20:55:58,762 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "data": {\n      "column_names": [\n        null\n      ],\n      "columns": [\n        "ID",\n        "Name",\n        "Age",\n        "Gender",\n        "Department",\n        "Salary",\n'...
+2024-05-26 20:56:25,537 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 20:56:25,538 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: dac180c3-94fb-49d4-98f9-73f68fdb9989
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 20:56:25,538 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 20:56:35,316 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 20:56:35,316 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 1d892b36-c9d3-401a-b0dd-d6583251cd0f
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 20:56:35,316 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 21:04:19,040 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 21:04:19,040 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 97178b4c-3549-4e9f-94bb-e8485fb1ecd0
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 21:04:19,041 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 21:04:19,269 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 9343
+
+
+2024-05-26 21:04:19,269 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "data": {\n      "Age": [\n        58,\n        42,\n        18,\n        55,\n        40,\n        42,\n        19,\n        18,\n        19,\n        56\n      ],\n      "Column_1": [\n     '...
+2024-05-26 21:08:18,256 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 21:08:18,256 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 596748ad-c054-4c88-a37b-97b117598285
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 21:08:18,257 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 21:08:18,479 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 12679
+
+
+2024-05-26 21:08:18,480 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "data": {\n      "0": {\n        "Age": 58,\n        "Column_1": 15335.67100844028,\n        "Column_10": -6807.931058842708,\n        "Column_11": 2443.503690620055,\n        "Column_'...
+2024-05-26 21:09:09,296 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 21:09:09,297 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7e13be11-ac4c-4207-a738-3ab55a710233
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 21:09:09,297 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 21:09:11,924 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 12794
+
+
+2024-05-26 21:09:11,924 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "data": [\n      {\n        "Age": 58,\n        "Column_1": 15335.67100844028,\n        "Column_10": -6807.931058842708,\n        "Column_11": 2443.503690620055,\n        "Column_12": '...
+2024-05-26 21:09:46,354 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 21:09:46,355 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 8a6ce073-b1aa-42a0-974c-17913d920988
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 21:09:46,355 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 21:10:18,687 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 15097
+
+
+2024-05-26 21:10:18,690 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "data": [\n      {\n        "Age": 58,\n        "Column_1": 15335.67100844028,\n        "Column_10": -6807.931058842708,\n        "Column_11": 2443.503690620055,\n        "Column_12": '...
+2024-05-26 21:11:18,579 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 21:11:18,579 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 01d7d3fc-3483-4811-bdbf-49d298507743
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 21:11:18,580 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 21:11:30,999 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 13842
+
+
+2024-05-26 21:11:31,000 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "data": [\n      {\n        "Age": 58,\n        "Column_1": 15335.67100844028,\n        "Column_10": -6807.931058842708,\n        "Column_11": 2443.503690620055,\n        "Column_12": '...
+2024-05-26 21:12:55,766 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 21:12:55,766 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a2adaa89-f10b-4f66-9ef7-9363b4341d23
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 21:12:55,766 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 21:13:04,937 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 13686
+
+
+2024-05-26 21:13:04,938 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "data": [\n      {\n        "Age": 58,\n        "Column_1": 15335.67100844028,\n        "Column_10": -6807.931058842708,\n        "Column_11": 2443.503690620055,\n        "Column_12": '...
+2024-05-26 21:15:56,112 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 21:15:56,112 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 447f1c63-9777-49b1-bc1a-6d46ff2589ee
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 21:15:56,113 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 21:16:06,736 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 13655
+
+
+2024-05-26 21:16:06,737 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "data": [\n      {\n        "Age": 58,\n        "Column_1": 15335.67100844028,\n        "Column_10": -6807.931058842708,\n        "Column_11": 2443.503690620055,\n        "Column_12": '...
+2024-05-26 21:23:33,558 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 21:23:33,559 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 93575a9d-c081-4485-a58b-bf9cec2a54e3
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 21:23:33,559 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 21:23:45,808 - store.logging - ERROR - name 'python' is not defined
+2024-05-26 21:23:45,810 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 70
+
+
+2024-05-26 21:23:45,810 - store.logging - INFO - Response Body: b'{\n  "response": "name \'python\' is not defined",\n  "status": "error"\n}\n'...
+2024-05-26 21:24:06,544 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 21:24:06,545 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 640cf1d6-3389-429e-8b75-8210cf7b5933
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 21:24:06,545 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 21:24:13,725 - store.logging - ERROR - name 'python' is not defined
+2024-05-26 21:24:13,726 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 70
+
+
+2024-05-26 21:24:13,727 - store.logging - INFO - Response Body: b'{\n  "response": "name \'python\' is not defined",\n  "status": "error"\n}\n'...
+2024-05-26 21:25:56,657 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 21:25:56,658 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f8e12201-0b7f-460a-852c-a168e971f2d7
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 21:25:56,658 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 21:26:10,049 - store.logging - ERROR - name 'datetime' is not defined
+2024-05-26 21:26:10,050 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 72
+
+
+2024-05-26 21:26:10,050 - store.logging - INFO - Response Body: b'{\n  "response": "name \'datetime\' is not defined",\n  "status": "error"\n}\n'...
+2024-05-26 21:28:56,535 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 21:28:56,535 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: e5b3ca63-c36e-4b8a-83e7-7272adc574eb
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 21:28:56,536 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 21:29:08,468 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 87
+
+
+2024-05-26 21:29:08,469 - store.logging - INFO - Response Body: b'{\n  "response": "Error: Please check the code and try again.",\n  "status": "success"\n}\n'...
+2024-05-26 21:34:16,498 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-26 21:34:16,499 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2020bbcd-2d16-4e02-af94-6eee4793d55a
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+
+2024-05-26 21:34:16,501 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n}'
+2024-05-26 21:34:26,430 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 81
+
+
+2024-05-26 21:34:26,430 - store.logging - INFO - Response Body: b'{\n  "response": "Error: name \'datetime\' is not defined",\n  "status": "success"\n}\n'...

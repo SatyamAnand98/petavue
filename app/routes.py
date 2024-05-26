@@ -1,7 +1,7 @@
 from flask import request, jsonify
 from controllers import data_generation as CreateData
 from controllers import summary_report as Report_Generation
-from .gpt_comm import generate_result_from_prompt
+from .gpt_comm import openAI_API_Prompt
 from store.logging import configure_logger
 import os
 
@@ -28,7 +28,7 @@ def setup_routes(app):
             data = request.get_json()
             prompt = data["prompt"]
             return {
-                "response": generate_result_from_prompt(prompt=prompt, gpt_model="gpt-4"),
+                "response": openAI_API_Prompt(prompt=prompt, gpt_model="gpt-4"),
                 "status": "success"
             }
         except Exception as e:
@@ -74,6 +74,22 @@ def setup_routes(app):
             Report_Generation.report()
             return {
                 "response": f'Summary Report Generated. Please check the file {file_path}',
+                "status": "success"
+            }
+        except Exception as e:
+            logger.error(e)
+            return {
+                "response": str(e),
+                "status": "error"
+            }
+        
+    @app.route("/process-data", methods=["POST"])
+    def process_data():
+        try:
+            data = request.get_json()
+            prompt = data["prompt"]
+            return {
+                "response": Report_Generation.prompt_processing(prompt),
                 "status": "success"
             }
         except Exception as e:
