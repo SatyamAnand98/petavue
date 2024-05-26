@@ -1,48 +1,27 @@
 import pandas as pd
 import re
 from app.gpt_comm import openAI_API_Prompt
+import datetime
+from datetime import datetime
+from store.logging import configure_logger
+import click
+from openpyxl.styles import PatternFill
+import shutil
+from openpyxl import load_workbook
 
-def report():
-    file_path = './files/petavue_structured_data.xlsx'
-    df = pd.read_excel(file_path)
-
-    numerical_columns = df.select_dtypes(include=['number']).columns
-
-
-    for col in numerical_columns:
-        df[f'{col}_add'] = df[col] + 10 
-
-    for col in numerical_columns:
-        df[f'{col}_sub'] = df[col] - 10
-
-    for col in numerical_columns:
-        df[f'{col}_mul'] = df[col] * 2
-
-    for col in numerical_columns:
-        df[f'{col}_div'] = df[col] / 2
-
-    summary_report = {}
-    for col in numerical_columns:
-        summary_report[col] = {
-            'sum': df[col].sum(),
-            'mean': df[col].mean(),
-            'min': df[col].min(),
-            'max': df[col].max(),
-            'std': df[col].std()
-        }
-
-    summary_df = pd.DataFrame(summary_report).transpose()
-
-    output_file_path = './files/petavue_structured_data_processed.xlsx'
-    with pd.ExcelWriter(output_file_path) as writer:
-        df.to_excel(writer, sheet_name='Processed Data', index=False)
-        summary_df.to_excel(writer, sheet_name='Summary Report')
-
-    print(f"Processed data and summary report saved to {output_file_path}")
+logger = configure_logger()
 
 def prompt_processing(prompt):
+    click.clear()
     file_path = './files/petavue_structured_data.xlsx'
-    df = pd.read_excel(file_path)
+    new_file_name = "./files/structured_data.xlsx"
+
+    # copying file_path and rename it structured_data.xlsx
+    shutil.copy(file_path, new_file_name)
+    
+
+    modified_file = f'./files/modified_structured_data.xlsx'
+    df = pd.read_excel(new_file_name)
     data = df.head(10)
 
     code = f'''
@@ -50,7 +29,7 @@ def prompt_processing(prompt):
         # Write your code here
     '''
 
-    role_prompt = f"you need to write python code: {code} to return the result based upon the command by user for the data stored in xlsx file. The data in file {file_path} is: {data.to_dict(orient='records')}."
+    role_prompt = f"you need to write complete python so that I can copy paste in this format of code: {code} to return the result based upon the command by user for the data stored in xlsx file. The data in file {new_file_name} is: {data.to_dict(orient='records')}. If the data is manipulated, return the manipulated data and store the modified content to a new file: {modified_file}"
 
     response = openAI_API_Prompt(prompt=prompt, role_prompt=role_prompt ,gpt_model="gpt-4")
 
@@ -58,6 +37,7 @@ def prompt_processing(prompt):
         code_string = response.split('```')[1]
 
         code_string = code_string.lstrip('python').strip()
+        code_string = code_string.lstrip('Python').strip()
 
         # Extract import statements
         imports = re.findall(r'^\s*(import .+|from .+ import .+)', code_string, re.MULTILINE)
@@ -89,8 +69,11 @@ def prompt_processing(prompt):
             raise NameError(f"{function_name} function is not defined in the executed code string.")
 
         # Call the generated function and get the result
-        result = generated_function(file_path)
+        result = generated_function(new_file_name)
+
         return result
     except Exception as e:
-        print(f"Error in generated code: {e}")
-        return f"Error: {e}"
+        logger.error(f"Error in generated code: {e}")
+        return {
+            "error": "Oops!! Something wrong happened! Please try again"
+        }

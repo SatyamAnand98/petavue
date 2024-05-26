@@ -66,23 +66,6 @@ def setup_routes(app):
                 "status": "error"
             }
 
-    @app.route("/summary-report", methods=["GET"])
-    def summary_report():
-        try:
-            current_dir = os.getcwd()
-            file_path = os.path.join(current_dir, 'files/petavue_structured_data_processed.xlsx')
-            Report_Generation.report()
-            return {
-                "response": f'Summary Report Generated. Please check the file {file_path}',
-                "status": "success"
-            }
-        except Exception as e:
-            logger.error(e)
-            return {
-                "response": str(e),
-                "status": "error"
-            }
-        
     @app.route("/process-data", methods=["POST"])
     def process_data():
         try:
