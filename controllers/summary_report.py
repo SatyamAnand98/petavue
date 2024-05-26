@@ -12,7 +12,6 @@ from openpyxl import load_workbook
 logger = configure_logger()
 
 def prompt_processing(prompt):
-    click.clear()
     file_path = './files/petavue_structured_data.xlsx'
     new_file_name = "./files/structured_data.xlsx"
 
@@ -71,7 +70,16 @@ def prompt_processing(prompt):
         # Call the generated function and get the result
         result = generated_function(new_file_name)
 
-        return result
+        # if result is not returnable, convert it to json format else return result
+        if isinstance(result, pd.DataFrame):
+            result.to_excel(modified_file, index=False)
+            return {
+                "message": "Data is manipulated and stored in a new file",
+                "file": modified_file
+            }
+        else:
+            return result
+
     except Exception as e:
         logger.error(f"Error in generated code: {e}")
         return {
