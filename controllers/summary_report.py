@@ -1,14 +1,8 @@
 import pandas as pd
 import re
 from app.gpt_comm import openAI_API_Prompt
-import datetime
-from datetime import datetime
 from store.logging import configure_logger
-import click
-from openpyxl.styles import PatternFill
 import shutil
-from openpyxl import load_workbook
-from importlib import import_module
 
 logger = configure_logger()
 
@@ -23,13 +17,22 @@ def prompt_processing(prompt):
     df = pd.read_excel(new_file_name)
     data = df.head(10)
 
-    code = '''
-    def Solution(file: str) -> str:
-        # Write your code here
-    '''
+    code_template = '''
+def Solution(file: str) -> str:
+    # Write your code here
+'''
 
-    role_prompt = f"you need to write complete python so that I can copy paste in this format of code: {code} to return the result based upon the command by user for the data stored in xlsx file. The data in file {new_file_name} is: {data.to_dict(orient='records')}. If the data is manipulated, return the manipulated data and store the modified content to a new file: {modified_file}"
-
+    role_prompt = f"""
+    You need to write complete Python code so that I can copy and paste it in this format of code: {code_template} 
+    to return the result based upon the command by the user for the data stored in xlsx file. 
+    The data in file {new_file_name} is: {data.to_dict(orient='records')}. 
+    NOTE:
+    - If the data is manipulated, return the manipulated data and store the modified content to a new file: {modified_file}
+    - If the data is not manipulated, return the original data.
+    - Don't give me installation guide.
+    - Give me code only, no explanation, not a single extra word.
+    """
+    
     response = openAI_API_Prompt(prompt=prompt, role_prompt=role_prompt, gpt_model="gpt-4")
 
     try:
@@ -80,6 +83,9 @@ def prompt_processing(prompt):
                 "message": "Data is manipulated and stored in a new file",
                 "file": modified_file
             }
+        elif isinstance(result, pd.Series):
+            # Convert Series to a list or dict to make it JSON serializable
+            return result.to_dict()
         else:
             return result
 

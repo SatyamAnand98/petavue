@@ -1203,3 +1203,112 @@ Content-Length: 87
 
 
 2024-05-27 14:53:01,668 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Increase 10% of salary for all people of IT department"\n}'
+2024-05-27 14:53:35,137 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 162
+
+
+2024-05-27 14:53:35,138 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "file": "./files/modified_structured_data.xlsx",\n    "message": "Data is manipulated and stored in a new file"\n  },\n  "status": "success"\n}\n'...
+2024-05-27 14:54:26,680 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 14:54:26,681 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 72ac87ba-3c50-4a30-97cc-a6893cf4f769
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 21
+
+
+2024-05-27 14:54:26,682 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n}'
+2024-05-27 14:54:26,683 - store.logging - ERROR - 'prompt'
+2024-05-27 14:54:26,684 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 87
+
+
+2024-05-27 14:54:26,685 - store.logging - INFO - Response Body: b'{\n  "error": true,\n  "response": "Oops!! Something wrong happened! Please try again"\n}\n'...
+2024-05-27 14:54:48,826 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 14:54:48,827 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 4735c3ba-b213-48e8-b035-39ec1d1282d8
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 92
+
+
+2024-05-27 14:54:48,828 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give names of heighest earning people in each department"\n}'
+2024-05-27 14:57:36,568 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 14:57:36,568 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ad615762-dbbd-4187-9659-956fc33fe339
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 92
+
+
+2024-05-27 14:57:36,569 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give names of heighest earning people in each department"\n}'
+2024-05-27 14:58:00,118 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 162
+
+
+2024-05-27 14:58:00,119 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "file": "./files/modified_structured_data.xlsx",\n    "message": "Data is manipulated and stored in a new file"\n  },\n  "status": "success"\n}\n'...
+2024-05-27 14:59:07,404 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 14:59:07,405 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a74cde93-4e21-4cce-bce0-8a3218f52cab
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 92
+
+
+2024-05-27 14:59:07,406 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give names of heighest earning people in each department"\n}'
+2024-05-27 14:59:19,239 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 243
+
+
+2024-05-27 14:59:19,240 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "256": "Lori Grant",\n    "391": "Jennifer Mcdonald",\n    "4926": "Brian Williams",\n    "5427": "Kyle Drake",\n    "5506": "Eric Foster",\n    "7088": "Amy Hernandez",\n    "7565": "'...
+2024-05-27 14:59:41,270 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 14:59:41,270 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a2a97302-4b08-4f15-a1da-f134d2ec17f0
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 112
+
+
+2024-05-27 14:59:41,271 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give name and their department of heighest earning people in each department"\n}'
+2024-05-27 14:59:53,593 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 162
+
+
+2024-05-27 14:59:53,593 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "file": "./files/modified_structured_data.xlsx",\n    "message": "Data is manipulated and stored in a new file"\n  },\n  "status": "success"\n}\n'...
+2024-05-27 15:00:11,401 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 15:00:11,402 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 4e619015-5387-4bd9-bb8f-7cbc914d53ec
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 144
+
+
+2024-05-27 15:00:11,403 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give name and their department of heighest earning people in each department. Give the result in json format"\n}'
+2024-05-27 15:00:24,336 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 557
+
+
+2024-05-27 15:00:24,338 - store.logging - INFO - Response Body: b'{\n  "response": [\n    {\n      "Department": "Sales",\n      "Name": "Amy Hernandez"\n    },\n    {\n      "Department": "HR",\n      "Name": "Eric Foster"\n    },\n    {\n      "Department": "Operations",\n   '...
