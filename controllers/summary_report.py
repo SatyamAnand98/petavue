@@ -32,15 +32,13 @@ def Solution(file: str) -> str:
     - Don't give me installation guide.
     - Give me code only, no explanation, not a single extra word.
     """
-    
+
     response = openAI_API_Prompt(prompt=prompt, role_prompt=role_prompt, gpt_model="gpt-4")
 
     try:
         code_string = response.split('```')[1].strip()
         code_string = code_string.lstrip('python').strip()
         code_string = code_string.lstrip('Python').strip()
-
-        print(code_string)
 
         # Extract import statements
         import_statements = re.findall(r'^\s*(import .+|from .+ import .+)', code_string, re.MULTILINE)
@@ -56,16 +54,25 @@ def Solution(file: str) -> str:
         # Remove import statements from code_string
         code_string = re.sub(r'^\s*(import .+|from .+ import .+)', '', code_string, flags=re.MULTILINE).strip()
 
+        # Remove all print statements from the code_string
+        code_string = re.sub(r'print\(.*\)', '', code_string)
+
         # Execute the remaining code
         local_scope = {}
         exec(code_string, globals(), local_scope)
 
         # Extract the function name
-        function_name_match = re.search(r'def (\w+)\(file: str\)', code_string)
-        if function_name_match:
-            function_name = function_name_match.group(1)
-        else:
-            raise NameError("No function found in the generated code string.")
+        # function_name_match = re.search(r'def (\w+)\(file: str\)', code_string)
+        # if function_name_match:
+        #     function_name = function_name_match.group(1)
+        # else:
+        #     raise NameError("No function found in the generated code string.")
+        
+        # Ensure the main function (Solution) is available in the local_scope
+        if 'Solution' not in local_scope:
+            raise NameError("Solution function is not defined in the executed code string.")
+
+        function_name = "Solution"
 
         # Ensure the function is available in the local_scope
         if function_name in local_scope:

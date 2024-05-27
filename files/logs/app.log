@@ -1312,3 +1312,169 @@ Content-Length: 557
 
 
 2024-05-27 15:00:24,338 - store.logging - INFO - Response Body: b'{\n  "response": [\n    {\n      "Department": "Sales",\n      "Name": "Amy Hernandez"\n    },\n    {\n      "Department": "HR",\n      "Name": "Eric Foster"\n    },\n    {\n      "Department": "Operations",\n   '...
+2024-05-27 15:03:24,322 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 15:03:24,323 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6ccb7767-7ccd-4db4-8bf8-0279e9c48038
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 144
+
+
+2024-05-27 15:03:24,325 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give name and their department of heighest earning people in each department. Give the result in json format"\n}'
+2024-05-27 15:03:37,198 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 557
+
+
+2024-05-27 15:03:37,200 - store.logging - INFO - Response Body: b'{\n  "response": [\n    {\n      "Department": "Development",\n      "Name": "Jennifer Mcdonald"\n    },\n    {\n      "Department": "Finance",\n      "Name": "Lori Grant"\n    },\n    {\n      "Department": "HR'...
+2024-05-27 15:03:50,074 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 15:03:50,074 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a092eb97-d57c-4972-b358-71b4760b229b
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 145
+
+
+2024-05-27 15:03:50,075 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give name and their department of heighest earning people in each department. Give the result in array format"\n}'
+2024-05-27 15:04:01,284 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 403
+
+
+2024-05-27 15:04:01,285 - store.logging - INFO - Response Body: b'{\n  "response": [\n    [\n      "Jennifer Mcdonald",\n      "Development"\n    ],\n    [\n      "Lori Grant",\n      "Finance"\n    ],\n    [\n      "Eric Foster",\n      "HR"\n    ],\n    [\n      "Stacy Reilly",\n'...
+2024-05-27 15:04:30,484 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 15:04:30,484 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 4bf7bc76-fa96-442b-9f85-7270a4cc6777
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 145
+
+
+2024-05-27 15:04:30,485 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give name and their department of heighest earning people in each department. Give the result in array format"\n}'
+2024-05-27 15:04:59,970 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 557
+
+
+2024-05-27 15:04:59,971 - store.logging - INFO - Response Body: b'{\n  "response": [\n    {\n      "Department": "Development",\n      "Name": "Jennifer Mcdonald"\n    },\n    {\n      "Department": "Finance",\n      "Name": "Lori Grant"\n    },\n    {\n      "Department": "HR'...
+2024-05-27 15:05:29,513 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 15:05:29,513 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 066671d4-3c06-4f97-b015-1df6c4fc22a8
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 145
+
+
+2024-05-27 15:05:29,514 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give name and their department of heighest earning people in each department. Give the result in array format"\n}'
+2024-05-27 15:05:50,619 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 557
+
+
+2024-05-27 15:05:50,619 - store.logging - INFO - Response Body: b'{\n  "response": [\n    {\n      "Department": "Development",\n      "Name": "Jennifer Mcdonald"\n    },\n    {\n      "Department": "Finance",\n      "Name": "Lori Grant"\n    },\n    {\n      "Department": "HR'...
+2024-05-27 15:08:48,847 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 15:08:48,848 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: cb409e0f-84b8-4b53-b062-7159f0fcb506
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 145
+
+
+2024-05-27 15:08:48,850 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give name and their department of heighest earning people in each department. Give the result in array format"\n}'
+2024-05-27 15:08:55,527 - store.logging - ERROR - Error in generated code: No function found in the generated code string.
+2024-05-27 15:08:55,528 - store.logging - ERROR - No function found in the generated code string.
+2024-05-27 15:08:55,530 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 87
+
+
+2024-05-27 15:08:55,530 - store.logging - INFO - Response Body: b'{\n  "error": true,\n  "response": "Oops!! Something wrong happened! Please try again"\n}\n'...
+2024-05-27 15:09:23,012 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 15:09:23,014 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 50924e78-9163-4978-a34c-4905bccbf9f4
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 145
+
+
+2024-05-27 15:09:23,015 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give name and their department of heighest earning people in each department. Give the result in array format"\n}'
+2024-05-27 15:09:41,408 - store.logging - ERROR - Error in generated code: No function found in the generated code string.
+2024-05-27 15:09:41,409 - store.logging - ERROR - No function found in the generated code string.
+2024-05-27 15:09:41,409 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 87
+
+
+2024-05-27 15:09:41,410 - store.logging - INFO - Response Body: b'{\n  "error": true,\n  "response": "Oops!! Something wrong happened! Please try again"\n}\n'...
+2024-05-27 15:11:02,989 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 15:11:02,990 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 60dd5e7e-8c10-4aa9-951b-ea864f009324
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 145
+
+
+2024-05-27 15:11:02,991 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give name and their department of heighest earning people in each department. Give the result in array format"\n}'
+2024-05-27 15:11:14,134 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 557
+
+
+2024-05-27 15:11:14,135 - store.logging - INFO - Response Body: b'{\n  "response": [\n    {\n      "Department": "Development",\n      "Name": "Jennifer Mcdonald"\n    },\n    {\n      "Department": "Finance",\n      "Name": "Lori Grant"\n    },\n    {\n      "Department": "HR'...
+2024-05-27 15:12:02,576 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 15:12:02,577 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: e759f065-5ac8-45f8-b75d-096c6c550916
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 145
+
+
+2024-05-27 15:12:02,578 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give name and their department of heighest earning people in each department. Give the result in array format"\n}'
+2024-05-27 15:12:23,517 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 557
+
+
+2024-05-27 15:12:23,518 - store.logging - INFO - Response Body: b'{\n  "response": [\n    {\n      "Department": "Development",\n      "Name": "Jennifer Mcdonald"\n    },\n    {\n      "Department": "Finance",\n      "Name": "Lori Grant"\n    },\n    {\n      "Department": "HR'...
+2024-05-27 15:12:46,293 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 15:12:46,293 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 53fafbc3-ea1f-43fb-8445-dc421908cc9f
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 145
+
+
+2024-05-27 15:12:46,294 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give name and their department of heighest earning people in each department. Give the result in array format"\n}'
+2024-05-27 15:12:58,918 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 557
+
+
+2024-05-27 15:12:58,919 - store.logging - INFO - Response Body: b'{\n  "response": [\n    {\n      "Department": "Development",\n      "Name": "Jennifer Mcdonald"\n    },\n    {\n      "Department": "Finance",\n      "Name": "Lori Grant"\n    },\n    {\n      "Department": "HR'...
