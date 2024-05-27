@@ -10,7 +10,7 @@ from faker import Faker
 fake = Faker()
 
 # Function to generate structured data
-def generate_structured_data(num_rows, num_columns):
+def generate_structured_data(num_rows: int, num_columns: int):
     data = {
         "ID": range(1, num_rows + 1),
         "Name": [fake.name() for _ in range(num_rows)],

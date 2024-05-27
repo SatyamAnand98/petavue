@@ -116,3 +116,635 @@ Content-Length: 2322
 
 
 2024-05-27 00:50:34,080 - store.logging - INFO - Response Body: b'{\n  "response": [\n    "Steven Williams",\n    "Craig Smith",\n    "Carrie Lane",\n    "Jennifer Oneal",\n    "Stephen Green",\n    "Catherine Bean",\n    "Luis Townsend",\n    "Anne Johnson",\n    "Kelly Brow'...
+2024-05-27 10:01:24,530 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 10:01:24,531 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 55a19cf6-8465-4776-95ad-1415825fff38
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 107
+
+
+2024-05-27 10:01:24,531 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n    \n    \n\t\t\n}'
+2024-05-27 10:01:36,905 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 2322
+
+
+2024-05-27 10:01:36,905 - store.logging - INFO - Response Body: b'{\n  "response": [\n    "Steven Williams",\n    "Craig Smith",\n    "Carrie Lane",\n    "Jennifer Oneal",\n    "Stephen Green",\n    "Catherine Bean",\n    "Luis Townsend",\n    "Anne Johnson",\n    "Kelly Brow'...
+2024-05-27 10:03:58,634 - store.logging - INFO - Accessed URL: http://127.0.0.1:8000/create/structured_data
+2024-05-27 10:03:58,635 - store.logging - INFO - Request Headers: User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 61999cef-5bd7-4628-96a6-1356156807f0
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-05-27 10:03:58,635 - store.logging - INFO - Request Body: b''
+2024-05-27 10:03:58,635 - store.logging - ERROR - 'bytes' object is not callable
+2024-05-27 10:03:58,635 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 72
+
+
+2024-05-27 10:03:58,636 - store.logging - INFO - Response Body: b'{\n  "response": "\'bytes\' object is not callable",\n  "status": "error"\n}\n'...
+2024-05-27 10:04:33,144 - store.logging - INFO - Accessed URL: http://127.0.0.1:8000/create/structured_data?row=10000&column=30
+2024-05-27 10:04:33,144 - store.logging - INFO - Request Headers: User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 625af155-f2a0-41e4-9fc7-3c3a29c55c70
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-05-27 10:04:33,145 - store.logging - INFO - Request Body: b''
+2024-05-27 10:04:33,145 - store.logging - ERROR - 'bytes' object is not callable
+2024-05-27 10:04:33,145 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 72
+
+
+2024-05-27 10:04:33,145 - store.logging - INFO - Response Body: b'{\n  "response": "\'bytes\' object is not callable",\n  "status": "error"\n}\n'...
+2024-05-27 10:07:52,753 - store.logging - INFO - Accessed URL: http://127.0.0.1:8000/create/structured_data?row=10000&column=30
+2024-05-27 10:07:52,754 - store.logging - INFO - Request Headers: User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 8436c556-53fe-45eb-9aa2-cc77d00bd112
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-05-27 10:07:52,754 - store.logging - INFO - Request Body: b''
+2024-05-27 10:07:52,754 - store.logging - ERROR - 'bytes' object is not callable
+2024-05-27 10:07:52,754 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 72
+
+
+2024-05-27 10:07:52,755 - store.logging - INFO - Response Body: b'{\n  "response": "\'bytes\' object is not callable",\n  "status": "error"\n}\n'...
+2024-05-27 10:08:54,482 - store.logging - INFO - Accessed URL: http://127.0.0.1:8000/create/structured_data?row=10000&column=30
+2024-05-27 10:08:54,482 - store.logging - INFO - Request Headers: User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 73ec840a-40bd-475b-8022-eb8c3283c6ef
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-05-27 10:08:54,482 - store.logging - INFO - Request Body: b''
+2024-05-27 10:08:54,483 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 95
+
+
+2024-05-27 10:08:54,483 - store.logging - INFO - Response Body: b'{\n  "data:": {\n    "column_count": "30",\n    "row_count": "10000"\n  },\n  "status": "success"\n}\n'...
+2024-05-27 10:09:29,231 - store.logging - INFO - Accessed URL: http://127.0.0.1:8000/create/structured_data?row=10000&column=30
+2024-05-27 10:09:29,232 - store.logging - INFO - Request Headers: User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ca06d48d-0347-4b00-80f9-6c7cd146ad49
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-05-27 10:09:29,233 - store.logging - INFO - Request Body: b''
+2024-05-27 10:09:29,233 - store.logging - ERROR - can only concatenate str (not "int") to str
+2024-05-27 10:09:29,234 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 87
+
+
+2024-05-27 10:09:29,234 - store.logging - INFO - Response Body: b'{\n  "response": "can only concatenate str (not \\"int\\") to str",\n  "status": "error"\n}\n'...
+2024-05-27 10:09:55,168 - store.logging - INFO - Accessed URL: http://127.0.0.1:8000/create/structured_data?row=10000&column=30
+2024-05-27 10:09:55,168 - store.logging - INFO - Request Headers: User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: fca89fe4-2335-41a7-b0f8-7efc274b6900
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-05-27 10:09:55,168 - store.logging - INFO - Request Body: b''
+2024-05-27 10:09:58,523 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 11548
+
+
+2024-05-27 10:09:58,523 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "data": [\n      {\n        "Age": 46,\n        "Column_1": -930.1849148963519,\n        "Column_10": 16217.528449686173,\n        "Column_11": -3106.931255362279,\n        "Column_12"'...
+2024-05-27 10:10:14,337 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 10:10:14,337 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 405f6261-bac8-4500-b353-40c11b3052ee
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 107
+
+
+2024-05-27 10:10:14,338 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n    \n    \n\t\t\n}'
+2024-05-27 10:10:32,753 - store.logging - ERROR - Error in generated code: name 'date' is not defined
+2024-05-27 10:10:32,754 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 112
+
+
+2024-05-27 10:10:32,754 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "error": "Oops!! Something wrong happened! Please try again"\n  },\n  "status": "success"\n}\n'...
+2024-05-27 10:11:50,729 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 10:11:50,729 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6d135074-6674-4a74-8ddf-9977e2a6f543
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 107
+
+
+2024-05-27 10:11:50,730 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n    \n    \n\t\t\n}'
+2024-05-27 10:12:03,740 - store.logging - ERROR - Error in generated code: No module named 'import pandas as pd'
+2024-05-27 10:12:03,743 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 112
+
+
+2024-05-27 10:12:03,743 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "error": "Oops!! Something wrong happened! Please try again"\n  },\n  "status": "success"\n}\n'...
+2024-05-27 10:13:20,535 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 10:13:20,536 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d4ab6dcf-8889-49f6-919e-c3b3bdadf64d
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 107
+
+
+2024-05-27 10:13:20,536 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n    \n    \n\t\t\n}'
+2024-05-27 10:13:32,581 - store.logging - ERROR - Error in generated code: No module named 'import pandas as pd'
+2024-05-27 10:13:32,584 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 112
+
+
+2024-05-27 10:13:32,584 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "error": "Oops!! Something wrong happened! Please try again"\n  },\n  "status": "success"\n}\n'...
+2024-05-27 10:14:07,762 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 10:14:07,762 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 1c9aad67-ee98-4756-8d67-93f024956ac7
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 107
+
+
+2024-05-27 10:14:07,763 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n    \n    \n\t\t\n}'
+2024-05-27 10:14:21,587 - store.logging - ERROR - Error in generated code: No module named 'import pandas as pd'
+2024-05-27 10:14:21,590 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 112
+
+
+2024-05-27 10:14:21,590 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "error": "Oops!! Something wrong happened! Please try again"\n  },\n  "status": "success"\n}\n'...
+2024-05-27 10:17:00,475 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 10:17:00,475 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 26eaa074-a193-466a-bef2-fe81f80f329b
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 107
+
+
+2024-05-27 10:17:00,475 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n    \n    \n\t\t\n}'
+2024-05-27 10:17:10,390 - store.logging - ERROR - Error in generated code: No module named 'import pandas as pd'
+2024-05-27 10:17:10,393 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 112
+
+
+2024-05-27 10:17:10,393 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "error": "Oops!! Something wrong happened! Please try again"\n  },\n  "status": "success"\n}\n'...
+2024-05-27 10:19:03,963 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 10:19:03,963 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 4f8276eb-443e-4426-af84-6ce2b6ddec36
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 107
+
+
+2024-05-27 10:19:03,964 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n    \n    \n\t\t\n}'
+2024-05-27 10:19:16,612 - store.logging - ERROR - Error in generated code: No module named 'import pandas as pd'
+2024-05-27 10:19:16,612 - store.logging - ERROR - No module named 'import pandas as pd'
+2024-05-27 10:19:16,613 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 87
+
+
+2024-05-27 10:19:16,614 - store.logging - INFO - Response Body: b'{\n  "error": true,\n  "response": "Oops!! Something wrong happened! Please try again"\n}\n'...
+2024-05-27 10:19:34,580 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 10:19:34,581 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a784beda-a1b0-44d7-a82f-2c387e10cd99
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 107
+
+
+2024-05-27 10:19:34,581 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n    \n    \n\t\t\n}'
+2024-05-27 10:19:45,217 - store.logging - ERROR - Error in generated code: No module named 'import pandas as pd'
+2024-05-27 10:19:45,217 - store.logging - ERROR - No module named 'import pandas as pd'
+2024-05-27 10:19:45,218 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 87
+
+
+2024-05-27 10:19:45,219 - store.logging - INFO - Response Body: b'{\n  "error": true,\n  "response": "Oops!! Something wrong happened! Please try again"\n}\n'...
+2024-05-27 10:27:05,881 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 10:27:05,882 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: dd62f036-fa1c-4b60-a8d3-a637ce2a5da8
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 107
+
+
+2024-05-27 10:27:05,882 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n    \n    \n\t\t\n}'
+2024-05-27 10:27:24,803 - store.logging - ERROR - Error in generated code: name 'List' is not defined
+2024-05-27 10:27:24,803 - store.logging - ERROR - name 'List' is not defined
+2024-05-27 10:27:24,805 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 87
+
+
+2024-05-27 10:27:24,805 - store.logging - INFO - Response Body: b'{\n  "error": true,\n  "response": "Oops!! Something wrong happened! Please try again"\n}\n'...
+2024-05-27 10:27:53,513 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 10:27:53,513 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 35a7d6e8-150c-4b25-8afc-3428a0e3ba40
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 107
+
+
+2024-05-27 10:27:53,514 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n    \n    \n\t\t\n}'
+2024-05-27 10:28:09,405 - store.logging - ERROR - Error in generated code: name 'date' is not defined
+2024-05-27 10:28:09,405 - store.logging - ERROR - name 'date' is not defined
+2024-05-27 10:28:09,406 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 87
+
+
+2024-05-27 10:28:09,406 - store.logging - INFO - Response Body: b'{\n  "error": true,\n  "response": "Oops!! Something wrong happened! Please try again"\n}\n'...
+2024-05-27 10:29:50,770 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 10:29:50,770 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: fa678ef2-651a-40e8-8c0a-291789e3c866
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 107
+
+
+2024-05-27 10:29:50,771 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n    \n    \n\t\t\n}'
+2024-05-27 10:30:07,280 - store.logging - ERROR - Error in generated code: name 'datetime' is not defined
+2024-05-27 10:30:07,280 - store.logging - ERROR - name 'datetime' is not defined
+2024-05-27 10:30:07,281 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 87
+
+
+2024-05-27 10:30:07,281 - store.logging - INFO - Response Body: b'{\n  "error": true,\n  "response": "Oops!! Something wrong happened! Please try again"\n}\n'...
+2024-05-27 10:46:01,079 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 10:46:01,079 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 19ee9ebb-9267-42e1-9ce1-b24330ce5131
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 107
+
+
+2024-05-27 10:46:01,080 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n    \n    \n\t\t\n}'
+2024-05-27 10:46:51,380 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 10:46:51,380 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 39e06367-0326-4707-baf1-3a7078fc77d8
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 107
+
+
+2024-05-27 10:46:51,380 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n    \n    \n\t\t\n}'
+2024-05-27 10:47:06,674 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 35
+
+
+2024-05-27 10:47:06,674 - store.logging - INFO - Response Body: b'{"response":"","status":"success"}\n'...
+2024-05-27 10:48:14,350 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 10:48:14,352 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f3dc084a-22f2-4781-a27b-87165c14be6f
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 107
+
+
+2024-05-27 10:48:14,353 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n    \n    \n\t\t\n}'
+2024-05-27 10:49:48,300 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 17661
+
+
+2024-05-27 10:49:48,301 - store.logging - INFO - Response Body: b'{"response":"[\'Timothy Jones\', \'Mark Baker MD\', \'Courtney Lopez\', \'Tony Montgomery\', \'Justin Nunez\', \'Kenneth Jones\', \'Brandon Trujillo\', \'Ashley Kim\', \'Melissa Porter\', \'Haley Graves\', \'Anthony Mccor'...
+2024-05-27 10:51:38,013 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 10:51:38,013 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: fa6a13b9-cc0f-4bd6-bdc9-4a422fe4e8bd
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 107
+
+
+2024-05-27 10:51:38,014 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n    \n    \n\t\t\n}'
+2024-05-27 10:52:01,474 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 35
+
+
+2024-05-27 10:52:01,476 - store.logging - INFO - Response Body: b'{"response":"","status":"success"}\n'...
+2024-05-27 10:56:29,420 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 10:56:29,421 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: da04ae0a-783d-4346-94de-435df4aa811d
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 107
+
+
+2024-05-27 10:56:29,422 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n    \n    \n\t\t\n}'
+2024-05-27 10:56:55,198 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 17661
+
+
+2024-05-27 10:56:55,199 - store.logging - INFO - Response Body: b'{"response":"[\'Timothy Jones\', \'Mark Baker MD\', \'Courtney Lopez\', \'Tony Montgomery\', \'Justin Nunez\', \'Kenneth Jones\', \'Brandon Trujillo\', \'Ashley Kim\', \'Melissa Porter\', \'Haley Graves\', \'Anthony Mccor'...
+2024-05-27 10:58:11,015 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 10:58:11,016 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2ce1c943-6f96-4457-8fba-cd324f78aafb
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 107
+
+
+2024-05-27 10:58:11,016 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n    \n    \n\t\t\n}'
+2024-05-27 10:58:38,283 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 35
+
+
+2024-05-27 10:58:38,285 - store.logging - INFO - Response Body: b'{"response":"","status":"success"}\n'...
+2024-05-27 10:59:08,424 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 10:59:08,424 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: b98341e9-ef69-4e2e-9d4f-77da89bcbbc9
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 107
+
+
+2024-05-27 10:59:08,425 - store.logging - INFO - Request Body: b'{\n    "prompt": "Give me employee names whose experience in the company is less than 1 year"\n    \n    \n\t\t\n}'
+2024-05-27 10:59:26,264 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 17661
+
+
+2024-05-27 10:59:26,265 - store.logging - INFO - Response Body: b'{"response":"[\'Timothy Jones\', \'Mark Baker MD\', \'Courtney Lopez\', \'Tony Montgomery\', \'Justin Nunez\', \'Kenneth Jones\', \'Brandon Trujillo\', \'Ashley Kim\', \'Melissa Porter\', \'Haley Graves\', \'Anthony Mccor'...
+2024-05-27 11:00:00,998 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:00:00,999 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a7701e33-5339-4064-b54c-20b37bc04f00
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 99
+
+
+2024-05-27 11:00:01,000 - store.logging - INFO - Request Body: b'{\n    \n    "prompt": "Get the 8th highest salaried person name along with the department"\n    \n\t\t\n}'
+2024-05-27 11:00:15,994 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 35
+
+
+2024-05-27 11:00:15,994 - store.logging - INFO - Response Body: b'{"response":"","status":"success"}\n'...
+2024-05-27 11:00:53,302 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:00:53,302 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ceeb706c-1217-42f2-b623-62a926d89f57
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 99
+
+
+2024-05-27 11:00:53,303 - store.logging - INFO - Request Body: b'{\n    \n    "prompt": "Get the 8th highest salaried person name along with the department"\n    \n\t\t\n}'
+2024-05-27 11:01:11,106 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 60
+
+
+2024-05-27 11:01:11,107 - store.logging - INFO - Response Body: b'{"response":"(\'Lori Grant\', \'Finance\')","status":"success"}\n'...
+2024-05-27 11:01:37,679 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:01:37,680 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 999ed029-0df5-41df-8175-9a1b595059cf
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 115
+
+
+2024-05-27 11:01:37,680 - store.logging - INFO - Request Body: b'{\n    \n    \n    "prompt": "add a column with value as \'Junior\' for people with less than 1 year of experience"\n\t\t\n}'
+2024-05-27 11:01:55,681 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 35
+
+
+2024-05-27 11:01:55,682 - store.logging - INFO - Response Body: b'{"response":"","status":"success"}\n'...
+2024-05-27 11:03:11,027 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:03:11,028 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 3cac4fb5-2257-4340-b9df-b793e94dcc7f
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 115
+
+
+2024-05-27 11:03:11,028 - store.logging - INFO - Request Body: b'{\n    \n    \n    "prompt": "add a column with value as \'Junior\' for people with less than 1 year of experience"\n\t\t\n}'
+2024-05-27 11:03:38,358 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 869
+
+
+2024-05-27 11:03:38,359 - store.logging - INFO - Response Body: b'{"response":"ID               Name  ...     Column_22 Experience Level\\n0         1        Mark Guzman  ...  10844.580379           Senior\\n1         2  Terrance Castillo  ...  12562.985834           '...
+2024-05-27 11:04:49,172 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:04:49,173 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 06ed24d1-5471-4197-bc0c-ab91d3050082
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 11:04:49,173 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 11:05:03,810 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 35
+
+
+2024-05-27 11:05:03,811 - store.logging - INFO - Response Body: b'{"response":"","status":"success"}\n'...
+2024-05-27 11:05:56,043 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:05:56,044 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f91a287c-18f3-4a36-ad9c-d14433645340
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 11:05:56,045 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 11:06:08,666 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 35
+
+
+2024-05-27 11:06:08,666 - store.logging - INFO - Response Body: b'{"response":"","status":"success"}\n'...
+2024-05-27 11:06:32,504 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:06:32,505 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f0219486-ec42-42ba-b2bd-7882d3f23923
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 11:06:32,507 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 11:06:48,930 - store.logging - ERROR - Error in generated code: Error in generated code execution: 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+Traceback (most recent call last):
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 3489, in <module>
+    main()
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 3482, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 2510, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 2517, in _exec
+    globals = pydevd_runpy.run_path(file, globals, '__main__')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 320, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 294, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./files/generated_code.py", line 1
+    ip install pandas openpyxl
+       ^^^^^^^
+SyntaxError: invalid syntax
+
+2024-05-27 11:06:48,931 - store.logging - ERROR - Error in generated code execution: 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+Traceback (most recent call last):
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 3489, in <module>
+    main()
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 3482, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 2510, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 2517, in _exec
+    globals = pydevd_runpy.run_path(file, globals, '__main__')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 320, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 294, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./files/generated_code.py", line 1
+    ip install pandas openpyxl
+       ^^^^^^^
+SyntaxError: invalid syntax
+
+2024-05-27 11:06:48,933 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 78
+
+
+2024-05-27 11:06:48,933 - store.logging - INFO - Response Body: b'{"error":true,"response":"Oops!! Something wrong happened! Please try again"}\n'...
+2024-05-27 11:08:17,183 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:08:17,183 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 4c90dc32-b331-4d9c-a307-41be4d21675e
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 11:08:17,183 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 11:08:33,843 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 35
+
+
+2024-05-27 11:08:33,846 - store.logging - INFO - Response Body: b'{"response":"","status":"success"}\n'...

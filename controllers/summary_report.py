@@ -1,13 +1,9 @@
 import pandas as pd
 import re
 from app.gpt_comm import openAI_API_Prompt
-import datetime
-from datetime import datetime
 from store.logging import configure_logger
-import click
-from openpyxl.styles import PatternFill
 import shutil
-from openpyxl import load_workbook
+from importlib import import_module
 
 logger = configure_logger()
 
@@ -38,30 +34,35 @@ def prompt_processing(prompt):
         code_string = code_string.lstrip('python').strip()
         code_string = code_string.lstrip('Python').strip()
 
+        print(code_string)
+
         # Extract import statements
-        imports = re.findall(r'^\s*(import .+|from .+ import .+)', code_string, re.MULTILINE)
+        import_statements = re.findall(r'^\s*(import .+|from .+ import .+)', code_string, re.MULTILINE)
 
         # Execute import statements
-        local_scope = {}
         global_scope = globals()
+        local_scope = {}
 
-        for imp in imports:
-            exec(imp, global_scope, local_scope)
+        for statement in import_statements:
+            exec(statement, global_scope, local_scope)
 
         # Remove import statements from code_string
-        code_body = re.sub(r'^\s*(import .+|from .+ import .+)', '', code_string, flags=re.MULTILINE)
+        # code_string = re.sub(r'^\s*(import .+|from .+ import .+)', '', code_string, flags=re.MULTILINE).strip()
 
-        # Extract function name (assuming there's only one function defined)
-        function_name_match = re.search(r'def (\w+)\(file: str\)', code_body)
+        # Define a new local_scope to ensure all definitions are contained
+        local_scope = {}
+
+        # Execute the code body
+        exec(code_string, global_scope, local_scope)
+
+        # Extract the function name
+        function_name_match = re.search(r'def (\w+)\(file: str\)', code_string)
         if function_name_match:
             function_name = function_name_match.group(1)
         else:
             raise NameError("No function found in the generated code string.")
 
-        # Execute the remaining code
-        exec(code_body, global_scope, local_scope)
-
-        # Now the function should be available in local_scope
+        # Ensure the function is available in the local_scope
         if function_name in local_scope:
             generated_function = local_scope[function_name]
         else:
@@ -70,7 +71,7 @@ def prompt_processing(prompt):
         # Call the generated function and get the result
         result = generated_function(new_file_name)
 
-        # if result is not returnable, convert it to json format else return result
+        # If result is a DataFrame, save it to a new file
         if isinstance(result, pd.DataFrame):
             result.to_excel(modified_file, index=False)
             return {
@@ -82,6 +83,4 @@ def prompt_processing(prompt):
 
     except Exception as e:
         logger.error(f"Error in generated code: {e}")
-        return {
-            "error": "Oops!! Something wrong happened! Please try again"
-        }
+        raise e
