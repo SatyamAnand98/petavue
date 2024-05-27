@@ -8,6 +8,7 @@ import click
 from openpyxl.styles import PatternFill
 import shutil
 from openpyxl import load_workbook
+from importlib import import_module
 
 logger = configure_logger()
 
@@ -17,24 +18,22 @@ def prompt_processing(prompt):
 
     # copying file_path and rename it structured_data.xlsx
     shutil.copy(file_path, new_file_name)
-    
 
     modified_file = f'./files/modified_structured_data.xlsx'
     df = pd.read_excel(new_file_name)
     data = df.head(10)
 
-    code = f'''
+    code = '''
     def Solution(file: str) -> str:
         # Write your code here
     '''
 
     role_prompt = f"you need to write complete python so that I can copy paste in this format of code: {code} to return the result based upon the command by user for the data stored in xlsx file. The data in file {new_file_name} is: {data.to_dict(orient='records')}. If the data is manipulated, return the manipulated data and store the modified content to a new file: {modified_file}"
 
-    response = openAI_API_Prompt(prompt=prompt, role_prompt=role_prompt ,gpt_model="gpt-4")
+    response = openAI_API_Prompt(prompt=prompt, role_prompt=role_prompt, gpt_model="gpt-4")
 
     try:
-        code_string = response.split('```')[1]
-
+        code_string = response.split('```')[1].strip()
         code_string = code_string.lstrip('python').strip()
         code_string = code_string.lstrip('Python').strip()
 
@@ -43,21 +42,20 @@ def prompt_processing(prompt):
         # Extract import statements
         import_statements = re.findall(r'^\s*(import .+|from .+ import .+)', code_string, re.MULTILINE)
 
-        # Execute import statements
-        global_scope = globals()
-        local_scope = {}
-
+        # Dynamically import the modules
         for statement in import_statements:
-            exec(statement, global_scope, local_scope)
+            try:
+                exec(statement, globals())
+            except Exception as e:
+                logger.error(f"Failed to import module with statement '{statement}': {e}")
+                raise ImportError(f"Failed to import module with statement '{statement}': {e}")
 
         # Remove import statements from code_string
-        # code_string = re.sub(r'^\s*(import .+|from .+ import .+)', '', code_string, flags=re.MULTILINE).strip()
+        code_string = re.sub(r'^\s*(import .+|from .+ import .+)', '', code_string, flags=re.MULTILINE).strip()
 
-        # Define a new local_scope to ensure all definitions are contained
+        # Execute the remaining code
         local_scope = {}
-
-        # Execute the code body
-        exec(code_string, global_scope, local_scope)
+        exec(code_string, globals(), local_scope)
 
         # Extract the function name
         function_name_match = re.search(r'def (\w+)\(file: str\)', code_string)

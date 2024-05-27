@@ -1100,3 +1100,106 @@ Content-Length: 8543399
 
 
 2024-05-27 12:02:47,201 - store.logging - INFO - Response Body: b'{"response":[{"Age":46,"Column_1":-930.1849148963519,"Column_10":16217.52844968617,"Column_11":-3106.931255362279,"Column_12":2890.104476278425,"Column_13":-21614.19577497802,"Column_14":-16729.310164'...
+2024-05-27 12:27:58,759 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 12:27:58,760 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 25ac4668-b856-4ff9-a8cd-24dfab3c6a4c
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 12:27:58,760 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 12:28:41,065 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 8543399
+
+
+2024-05-27 12:28:41,066 - store.logging - INFO - Response Body: b'{"response":[{"Age":46,"Column_1":-930.1849148963519,"Column_10":16217.52844968617,"Column_11":-3106.931255362279,"Column_12":2890.104476278425,"Column_13":-21614.19577497802,"Column_14":-16729.310164'...
+2024-05-27 12:29:33,013 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 12:29:33,014 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 8869d2fb-c462-44eb-81d4-c301b5b16d4b
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 12:29:33,015 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 12:30:04,522 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 8871191
+
+
+2024-05-27 12:30:04,524 - store.logging - INFO - Response Body: b'{"response":"[{\'ID\': 1, \'Name\': \'Mark Guzman\', \'Age\': 46, \'Gender\': \'Male\', \'Department\': \'Finance\', \'Salary\': 67756, \'Start Date\': Timestamp(\'2015-01-13 00:00:00\'), \'Performance Score\': 57, \'Column_1'...
+2024-05-27 14:07:08,901 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 14:07:08,903 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 18dc4c34-d0b7-4fb2-a3e8-6ecd6bde437e
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 99
+
+
+2024-05-27 14:07:08,904 - store.logging - INFO - Request Body: b'{\n    \n    "prompt": "Get the 8th highest salaried person name along with the department"\n    \n\t\t\n}'
+2024-05-27 14:07:28,902 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 81
+
+
+2024-05-27 14:07:28,902 - store.logging - INFO - Response Body: b'{\n  "response": "Name: Lori Grant, Department: Finance",\n  "status": "success"\n}\n'...
+2024-05-27 14:07:40,588 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 14:07:40,589 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 01b69d6e-2add-45bb-87f6-545835d3b635
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 14:07:40,590 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 14:08:13,290 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 10761202
+
+
+2024-05-27 14:08:13,291 - store.logging - INFO - Response Body: b'{\n  "response": [\n    {\n      "Age": 46,\n      "Column_1": -930.1849148963519,\n      "Column_10": 16217.52844968617,\n      "Column_11": -3106.931255362279,\n      "Column_12": 2890.104476278425,\n      '...
+2024-05-27 14:52:05,692 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 14:52:05,694 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: dbbabd91-efa6-4c9a-b552-a21e16082dad
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 87
+
+
+2024-05-27 14:52:05,696 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Increase 10% of salary for all people of IT department"\n}'
+2024-05-27 14:52:56,427 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 162
+
+
+2024-05-27 14:52:56,428 - store.logging - INFO - Response Body: b'{\n  "response": {\n    "file": "./files/modified_structured_data.xlsx",\n    "message": "Data is manipulated and stored in a new file"\n  },\n  "status": "success"\n}\n'...
+2024-05-27 14:53:01,667 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 14:53:01,668 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: eaf919c1-f981-446f-ac6e-2eaed5368790
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 87
+
+
+2024-05-27 14:53:01,668 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Increase 10% of salary for all people of IT department"\n}'
