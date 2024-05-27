@@ -748,3 +748,355 @@ Content-Length: 35
 
 
 2024-05-27 11:08:33,846 - store.logging - INFO - Response Body: b'{"response":"","status":"success"}\n'...
+2024-05-27 11:11:16,524 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:11:16,526 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: c01a4176-c2ee-445f-92b1-857e16daa0ed
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 11:11:16,527 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 11:11:28,874 - store.logging - ERROR - Error in generated code: invalid syntax (<string>, line 1)
+2024-05-27 11:11:28,874 - store.logging - ERROR - invalid syntax (<string>, line 1)
+2024-05-27 11:11:28,876 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 78
+
+
+2024-05-27 11:11:28,876 - store.logging - INFO - Response Body: b'{"error":true,"response":"Oops!! Something wrong happened! Please try again"}\n'...
+2024-05-27 11:12:51,305 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:12:51,306 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d3e1de44-5059-4e11-8a8d-d7b1b9c8ced6
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 11:12:51,307 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 11:13:19,674 - store.logging - ERROR - Error in generated code: invalid syntax (<string>, line 1)
+2024-05-27 11:13:19,675 - store.logging - ERROR - invalid syntax (<string>, line 1)
+2024-05-27 11:13:19,677 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 78
+
+
+2024-05-27 11:13:19,677 - store.logging - INFO - Response Body: b'{"error":true,"response":"Oops!! Something wrong happened! Please try again"}\n'...
+2024-05-27 11:14:04,553 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:14:04,554 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: db8ba8a3-72f8-47ed-a9d2-125b8af25cd2
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 11:14:04,554 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 11:14:22,117 - store.logging - ERROR - Error in generated code: invalid syntax (<string>, line 1)
+2024-05-27 11:14:22,118 - store.logging - ERROR - invalid syntax (<string>, line 1)
+2024-05-27 11:14:22,119 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 78
+
+
+2024-05-27 11:14:22,119 - store.logging - INFO - Response Body: b'{"error":true,"response":"Oops!! Something wrong happened! Please try again"}\n'...
+2024-05-27 11:14:47,060 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:14:47,061 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 76488059-6d08-42a8-8e3e-1e1e6886c94e
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 11:14:47,062 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 11:18:01,936 - store.logging - ERROR - Error in generated code: invalid syntax (<string>, line 1)
+2024-05-27 11:18:01,937 - store.logging - ERROR - invalid syntax (<string>, line 1)
+2024-05-27 11:18:01,940 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 78
+
+
+2024-05-27 11:18:01,941 - store.logging - INFO - Response Body: b'{"error":true,"response":"Oops!! Something wrong happened! Please try again"}\n'...
+2024-05-27 11:18:52,434 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:18:52,435 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f007a9d9-87cf-4347-9de0-5d050859bb64
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 11:18:52,437 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 11:20:02,506 - store.logging - ERROR - Error in generated code: invalid syntax (<string>, line 1)
+2024-05-27 11:20:02,506 - store.logging - ERROR - invalid syntax (<string>, line 1)
+2024-05-27 11:20:02,508 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 78
+
+
+2024-05-27 11:20:02,508 - store.logging - INFO - Response Body: b'{"error":true,"response":"Oops!! Something wrong happened! Please try again"}\n'...
+2024-05-27 11:31:29,980 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:31:29,980 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ea9a53f4-292f-4e30-a0f5-62569e9a7017
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 11:31:29,981 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 11:31:42,491 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 35
+
+
+2024-05-27 11:31:42,492 - store.logging - INFO - Response Body: b'{"response":"","status":"success"}\n'...
+2024-05-27 11:32:58,191 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:32:58,191 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: e2103c03-f5a9-4c0b-9ebe-36e5505b5889
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 11:32:58,192 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 11:33:27,825 - store.logging - ERROR - Error in generated code: Error in generated code execution: 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+Traceback (most recent call last):
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 3489, in <module>
+    main()
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 3482, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 2510, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 2517, in _exec
+    globals = pydevd_runpy.run_path(file, globals, '__main__')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 320, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 294, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./files/generated_code.py", line 8
+    df.loc[df['Department']
+          ^
+SyntaxError: '[' was never closed
+
+2024-05-27 11:33:27,826 - store.logging - ERROR - Error in generated code execution: 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+Traceback (most recent call last):
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 3489, in <module>
+    main()
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 3482, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 2510, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 2517, in _exec
+    globals = pydevd_runpy.run_path(file, globals, '__main__')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 320, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 294, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./files/generated_code.py", line 8
+    df.loc[df['Department']
+          ^
+SyntaxError: '[' was never closed
+
+2024-05-27 11:33:27,828 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 78
+
+
+2024-05-27 11:33:27,828 - store.logging - INFO - Response Body: b'{"error":true,"response":"Oops!! Something wrong happened! Please try again"}\n'...
+2024-05-27 11:33:37,867 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:33:37,867 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a532d649-961e-4e18-be48-b0d6880da2d4
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 11:33:37,868 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 11:52:13,390 - store.logging - ERROR - Error in generated code: Error in generated code execution: 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+Traceback (most recent call last):
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 3489, in <module>
+    main()
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 3482, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 2510, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 2517, in _exec
+    globals = pydevd_runpy.run_path(file, globals, '__main__')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 320, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 294, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./files/generated_code.py", line 12
+    new_file
+            ^
+SyntaxError: expected 'except' or 'finally' block
+
+2024-05-27 11:52:13,393 - store.logging - ERROR - Error in generated code execution: 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+Traceback (most recent call last):
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 3489, in <module>
+    main()
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 3482, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 2510, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 2517, in _exec
+    globals = pydevd_runpy.run_path(file, globals, '__main__')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 320, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/satyamanand/.vscode/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 294, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./files/generated_code.py", line 12
+    new_file
+            ^
+SyntaxError: expected 'except' or 'finally' block
+
+2024-05-27 11:52:13,394 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 78
+
+
+2024-05-27 11:52:13,395 - store.logging - INFO - Response Body: b'{"error":true,"response":"Oops!! Something wrong happened! Please try again"}\n'...
+2024-05-27 11:52:44,912 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:52:44,912 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 74fa2c7d-57aa-4cd7-b3cd-d4ba45985f20
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 11:52:44,913 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 11:55:49,442 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 35
+
+
+2024-05-27 11:55:49,443 - store.logging - INFO - Response Body: b'{"response":"","status":"success"}\n'...
+2024-05-27 11:56:10,648 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:56:10,649 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: eedfe449-a909-4e81-ad26-7ba3706cecb4
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 11:56:10,650 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 11:57:00,531 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 35
+
+
+2024-05-27 11:57:00,532 - store.logging - INFO - Response Body: b'{"response":"","status":"success"}\n'...
+2024-05-27 11:59:12,985 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 11:59:12,986 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 22de64db-1246-4b58-819c-82cab0394e41
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 11:59:12,986 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 11:59:44,952 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 35
+
+
+2024-05-27 11:59:44,954 - store.logging - INFO - Response Body: b'{"response":"","status":"success"}\n'...
+2024-05-27 12:00:57,010 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 12:00:57,012 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 1851a76c-e27d-4a00-baf2-748f62e4bb93
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 93
+
+
+2024-05-27 12:00:57,013 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t"prompt": "Add 100 to each person\'s salary who belongs to IT department"\n}'
+2024-05-27 12:01:27,823 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 1061
+
+
+2024-05-27 12:01:27,825 - store.logging - INFO - Response Body: b'{"response":"ID               Name  Age  ...     Column_20     Column_21     Column_22\\n0         1        Mark Guzman   46  ... -11760.653436  -7599.943922  10844.580379\\n1         2  Terrance Castil'...
+2024-05-27 12:02:11,019 - store.logging - INFO - Accessed URL: http://localhost:8000/process-data
+2024-05-27 12:02:11,020 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: de10c342-7bf3-42eb-a5b0-5566db4e6683
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 115
+
+
+2024-05-27 12:02:11,020 - store.logging - INFO - Request Body: b'{\n    \n    \n    "prompt": "add a column with value as \'Junior\' for people with less than 1 year of experience"\n\t\t\n}'
+2024-05-27 12:02:47,200 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 8543399
+
+
+2024-05-27 12:02:47,201 - store.logging - INFO - Response Body: b'{"response":[{"Age":46,"Column_1":-930.1849148963519,"Column_10":16217.52844968617,"Column_11":-3106.931255362279,"Column_12":2890.104476278425,"Column_13":-21614.19577497802,"Column_14":-16729.310164'...

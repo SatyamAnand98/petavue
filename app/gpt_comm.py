@@ -7,7 +7,7 @@ load_dotenv()
 client = OpenAI()
 logger = configure_logger()
 
-def openAI_API_Prompt(prompt: str, role_prompt: str = None, gpt_model: str = "gpt-3.5-turbo"):
+def openAI_API_Prompt(prompt: str, role_prompt: str = None, gpt_model: str = "gpt-3.5-turbo", token: int = 1000):
     try:
         msg = []
         if role_prompt:
@@ -23,7 +23,7 @@ def openAI_API_Prompt(prompt: str, role_prompt: str = None, gpt_model: str = "gp
 
         response = client.chat.completions.create(
             messages=msg,
-            max_tokens=1000,
+            max_tokens=token,
             model=gpt_model,
         )
 
