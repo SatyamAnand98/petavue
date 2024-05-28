@@ -1,15 +1,8 @@
 import pandas as pd
+from typing import List
 
-def Solution(file: str) -> str:
+def Solution(file: str) -> List[str]:
     df = pd.read_excel(file)
     
-    # Update salary of employees in IT department
-    mask = df['Department'] == 'IT' 
-    df.loc[mask, 'Salary'] = df.loc[mask, 'Salary'] + 100
-    
-    # Save modified dataset to new file
-    df.to_excel("./files/modified_structured_data.xlsx", index=False)
-    
-    return df.to_dict(orient='records')
-
-print(Solution("./files/structured_data.xlsx"))
+    highest_earning_people = df.loc[df.groupby("Department")["Salary"].idxmax()][['Name', 'Department']].values.tolist()  
+    return highest_earning_people

@@ -1478,3 +1478,34 @@ Content-Length: 557
 
 
 2024-05-27 15:12:58,919 - store.logging - INFO - Response Body: b'{\n  "response": [\n    {\n      "Department": "Development",\n      "Name": "Jennifer Mcdonald"\n    },\n    {\n      "Department": "Finance",\n      "Name": "Lori Grant"\n    },\n    {\n      "Department": "HR'...
+2024-05-28 08:59:59,032 - store.logging - INFO - Accessed URL: http://localhost:8000/prompt/processing/alternate
+2024-05-28 08:59:59,034 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d9f21e48-6d2f-4f99-98a1-e9f85d8fdf5f
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 145
+
+
+2024-05-28 08:59:59,036 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give name and their department of heighest earning people in each department. Give the result in array format"\n}'
+2024-05-28 09:00:13,549 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 401
+
+
+2024-05-28 09:00:13,550 - store.logging - INFO - Response Body: b'{\n  "response": "[{\'Name\': \'Jennifer Mcdonald\', \'Department\': \'Development\'}, {\'Name\': \'Lori Grant\', \'Department\': \'Finance\'}, {\'Name\': \'Eric Foster\', \'Department\': \'HR\'}, {\'Name\': \'Stacy Reilly\', \'De'...
+2024-05-28 09:00:26,597 - store.logging - INFO - Accessed URL: http://localhost:8000/prompt/processing/alternate
+2024-05-28 09:00:26,598 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 41ed9dea-3af9-415d-8630-974e5be96ede
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 145
+
+
+2024-05-28 09:00:26,599 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give name and their department of heighest earning people in each department. Give the result in array format"\n}'

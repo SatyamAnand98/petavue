@@ -1,6 +1,7 @@
 from flask import request, jsonify
 from controllers import data_generation as CreateData
 from controllers import summary_report as Report_Generation
+from controllers import summary_report2 as Report_Generation_Through_Lambda
 from .gpt_comm import openAI_API_Prompt
 from store.logging import configure_logger
 import os
@@ -67,13 +68,30 @@ def setup_routes(app):
                 "status": "error"
             }
 
-    @app.route("/process-data", methods=["POST"])
-    def process_data():
+    @app.route("/prompt/processing", methods=["POST"])
+    def process_prompt():
         try:
             data = request.get_json()
             prompt = data["prompt"]
             return {
                 "response": Report_Generation.prompt_processing(prompt),
+                "status": "success"
+            }
+        except Exception as e:
+            logger.error(e)
+            return {
+                "response": "Oops!! Something wrong happened! Please try again",
+                "error": True
+            }
+        
+
+    @app.route("/prompt/processing/alternate", methods=["POST"])
+    def process_prompt_alternate():
+        try:
+            data = request.get_json()
+            prompt = data["prompt"]
+            return {
+                "response": Report_Generation_Through_Lambda.prompt_processing(prompt),
                 "status": "success"
             }
         except Exception as e:
