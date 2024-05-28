@@ -1509,3 +1509,41 @@ Content-Length: 145
 
 
 2024-05-28 09:00:26,599 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give name and their department of heighest earning people in each department. Give the result in array format"\n}'
+2024-05-28 09:10:19,038 - store.logging - INFO - Accessed URL: http://localhost:8000/prompt/processing/alternate
+2024-05-28 09:10:19,039 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 8128b984-402b-43d2-9f01-2fa7abffb785
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 145
+
+
+2024-05-28 09:10:19,040 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give name and their department of heighest earning people in each department. Give the result in array format"\n}'
+2024-05-28 09:10:19,040 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 46
+
+
+2024-05-28 09:10:19,041 - store.logging - INFO - Response Body: b'{\n  "response": null,\n  "status": "success"\n}\n'...
+2024-05-28 09:10:34,998 - store.logging - INFO - Accessed URL: http://localhost:8000/prompt/processing/alternate
+2024-05-28 09:10:34,999 - store.logging - INFO - Request Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: e92af488-6ed8-4bb0-a69f-56e017245a30
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 145
+
+
+2024-05-28 09:10:35,001 - store.logging - INFO - Request Body: b'{\n    \n    \n    \n\t\t\n\t\t"prompt": "Give name and their department of heighest earning people in each department. Give the result in array format"\n}'
+2024-05-28 09:10:47,792 - store.logging - ERROR - Error in generated code: No module named 'generated_code'
+2024-05-28 09:10:47,793 - store.logging - ERROR - No module named 'generated_code'
+2024-05-28 09:10:47,794 - store.logging - INFO - Response Headers: Content-Type: application/json
+Content-Length: 87
+
+
+2024-05-28 09:10:47,794 - store.logging - INFO - Response Body: b'{\n  "error": true,\n  "response": "Oops!! Something wrong happened! Please try again"\n}\n'...

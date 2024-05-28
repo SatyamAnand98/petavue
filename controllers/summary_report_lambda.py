@@ -4,10 +4,13 @@ import shutil
 import subprocess
 from app.gpt_comm import openAI_API_Prompt
 from store.logging import configure_logger
+import os
 
 logger = configure_logger()
 
 def prompt_processing(prompt):
+    if os.getenv('WERKZEUG_RUN_MAIN') == 'true':
+        return
     file_path = './files/petavue_structured_data.xlsx'
     new_file_name = "./files/structured_data.xlsx"
 
